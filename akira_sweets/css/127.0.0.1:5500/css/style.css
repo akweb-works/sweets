@@ -1,0 +1,96 @@
+/* 共通
+************************************/
+
+body {
+  /* フォントファミリー設定 */
+  font-family: "Josefin Sans", "Noto Sans JP", serif;
+  letter-spacing: 0.05em;
+  color: rgb(60, 48, 30);
+}
+
+.section-inner {
+  padding: 0 40px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading-main {
+  font-size: 40px;
+  display: block;
+}
+
+.section-heading-sub {
+  font-size: 12px;
+  display: block;
+}
+/* header
+************************************/
+
+.header {
+  position: fixed; /* ヘッダーを上部に固定 */
+  width: 100%; /* 幅を画面幅100% */
+  border-bottom: 1px solid rgba(241, 238, 228, 0.25);
+}
+
+.header-inner {
+  padding: 12px;
+  text-align: center;
+}
+
+.header-nav {
+  margin-top: 10px;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-nav-item {
+  color: #fff;
+}
+
+/* Aboutセクション
+************************************/
+.about {
+  padding: 40px 0;
+  background-color: rgb(241, 238, 228);
+}
+
+.about-contents{
+  font-size: 14px;
+  line-height: 2;
+}
+
+.about-text-contents{
+  margin-top: 20px;
+}
+
+.about-text + .about-text{
+  margin-top: 15px;
+}
+
+/* menu
+************************************/
+
+.menu{
+  padding: 80px 0;
+  background-color: rgb(241, 238, 228);
+}
+
+.menu-item-text-contents{
+  text-align: center;
+}
+
+.menu-item-name-main{
+  display: block;
+  font-size: 18px;
+}
+
+.menu-item-name-sub{
+  display: block;
+}

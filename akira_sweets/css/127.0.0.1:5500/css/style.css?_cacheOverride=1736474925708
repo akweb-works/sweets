@@ -1,0 +1,141 @@
+/* 共通
+************************************/
+
+body {
+  /* フォントファミリー設定 */
+  font-family: "Josefin Sans", "Noto Sans JP", serif;
+  letter-spacing: 0.05em;
+  color: rgb(60, 48, 30);
+}
+
+.section-inner {
+  padding: 0 40px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading-main {
+  font-size: 40px;
+  display: block;
+}
+
+.section-heading-sub {
+  font-size: 12px;
+  display: block;
+}
+/* header
+************************************/
+
+.header {
+  position: fixed; /* ヘッダーを上部に固定 */
+  width: 100%; /* 幅を画面幅100% */
+  border-bottom: 1px solid rgba(241, 238, 228, 0.25);
+}
+
+.header-inner {
+  padding: 12px;
+  text-align: center;
+}
+
+.header-nav {
+  margin-top: 10px;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-nav-item {
+  color: #fff;
+}
+
+/* Aboutセクション
+************************************/
+.about {
+  padding: 40px 0;
+  background-color: rgb(241, 238, 228);
+}
+
+.about-contents {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.about-text-contents {
+  margin-top: 20px;
+}
+
+.about-text + .about-text {
+  margin-top: 15px;
+}
+
+/* menu
+************************************/
+
+.menu {
+  padding: 80px 0;
+  background-color: rgb(241, 238, 228);
+}
+
+.menu-item + .menu-item {
+  margin-top: 62px;
+}
+
+.menu-item-text-contents {
+  text-align: center;
+  padding: 16px;
+}
+
+.menu-item-name-main {
+  display: block;
+  font-size: 18px;
+}
+
+.menu-item-name-sub {
+  display: block;
+  margin-top: 8px;
+  color: rgb(169, 140, 95);
+  font-size: 12px;
+}
+
+.menu-item-tag {
+  margin-top: 16px;
+  color: rgb(169, 140, 95);
+  font-size: 14px;
+}
+
+/* shop
+************************************/
+
+.shop {
+  padding: 80px 0;
+  background-image: url(../img/bg-shop.png);
+  /*背景画像は高さを持たないため、heightの指定が必要*/
+  height: 100%;
+  /* 画像の縦横比を保ち、要素を覆う */
+  background-size: cover;
+  /* 画像の繰り返し表示をしない */
+  background-repeat: no-repeat;
+  /* 画像の横方向、縦方向の配置を中央に定義 */
+  background-position: center center;
+}
+
+.shop-inner {
+  padding: 0 20px;
+}
+
+.section-heading-shop{
+  color: white;
+}
+
+.shop-text{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 2;
+}
